@@ -9,4 +9,4 @@ WORKDIR /app
 RUN uv sync --locked
 
 
-CMD ["uv", "run", "fastapi", "run", "main.py", "--port", "80"]
+CMD ["uv", "run", "fastapi", "run", "main.py", "--port", "80", "--reload"]
